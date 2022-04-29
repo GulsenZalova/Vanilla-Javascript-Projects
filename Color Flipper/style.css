@@ -1,61 +1,77 @@
-*{ 
+*{
     margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.nav-center{
-    width: 600px;
-    height: 100px;
-    margin: 30px auto;
+nav{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.nav{
+    margin: 0px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-h4{
-    font-size: 30px;
-    font-weight: 100;
+    align-items: center;
+    text-align: center;
+    width: 1000px;
+    padding: 0px 100px;
+    height: 50px;
+  
 }
 .nav-links{
     display: flex;
     flex-direction: row;
 }
-.nav-links ul li a{
-    margin-right: 10px;
-    color: brown;
+.nav-header{
+    font-weight: 400;
+    font-size: 30px;
+    color: blue;
+    
 }
-.container{
- width: 300px;
- margin: 100px auto;
- /* display: flex;
-justify-content: center;
- flex-direction: column;
- text-align: center;
-  */
-}
-.btn{
-    width: 100px;
-    height: 35px;
-    margin-left: 120px;
-    margin-top: 50px;
-    border-radius: 5px;
-    border-color: black;
+.nav-links a{
+    margin-left: 15px;
+    font-size: 20px;
     color: black;
-   
 }
-h2{
-    width: 400px;
-    height: 100px;
-    background-color: black;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-    margin-right: 60px;
+.color-main{
+    margin: 0px auto;
+    padding-top: 200px;
+    width: 600px;
+    height: 200px;
+
 
 }
-span{
-    color: blue;
+.color-main-text{
+    margin-left: 50px;
+    padding: 10px 20px;
+    width: 500px;
+    height: 70px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+} 
+
+.btn{
+    margin: auto;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-left: 240px;
+    font-size: medium;
+    background-color: rgba(225,225,225,0);
+}
+
+main{
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
 }
