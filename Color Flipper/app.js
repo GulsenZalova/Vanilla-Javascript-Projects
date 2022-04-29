@@ -1,3 +1,4 @@
+"use strict";
 let arr=["red","blue","green","yellow","pink","violet","orange","aqua", "black","white"]
 let color=document.querySelector(".color");
 let btn=document.querySelector(".btn");
