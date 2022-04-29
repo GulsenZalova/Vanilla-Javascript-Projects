@@ -46,7 +46,7 @@ nav{
 
 }
 .color-main-text{
-    margin-left: 90px;
+    margin-left: 60px;
     padding: 10px 20px;
     width: 500px;
     height: 70px;
@@ -65,7 +65,7 @@ nav{
     border: 1px solid black;
     cursor: pointer;
     margin-top: 70px;
-    margin-left: 250px;
+    margin-left: 240px;
     font-size: medium;
     background-color: rgba(225,225,225,0);
 }
