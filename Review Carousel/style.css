@@ -8,7 +8,7 @@
 #reviews{
     width: 100%;
     height: 100vh;
-    background-color: #e6eff5;
+    background-color: hsl(210, 36%, 96%);
 }
 .review-main{
     display: flex;
@@ -28,9 +28,9 @@
     border-radius: 50%;
     box-shadow: 10px -5px #03e3fc;
     object-fit: cover;
-  
-
+    position: relative;
 }
+
 .review-main-image {
     width: 200px;
     height: 200px;
@@ -50,20 +50,33 @@
     letter-spacing: 5px;
     color: #454e4f;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin: 10px;
 }
 .review-main-info-job{
     color: #03e3fc;
 }
+.review-main-info-icons{
+    margin: 0px auto;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 .review-main-info i{
     color: #03e3fc;
-    margin-left: 10px;
+    margin-left: 5px;
     font-size: 20px;
+}
+.review-main-info i:hover{
+    color: hsl(205, 78%, 60%);
 }
 .review-main-info-parag{
     color: #386a8f;
     word-spacing: 2px;
     padding: 20px;
+    line-height: 1.5;
 }
 .btn{
     width: 100px;
